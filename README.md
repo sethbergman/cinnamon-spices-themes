@@ -63,10 +63,27 @@ Authors can modify their spice under the following conditions:
 
 - They need to respect the file structure and workflow defined here
 - They cannot introduce malicious code or code which would have a negative impact on the environment
+- They cannot direct users to install code or functionality from outside the Spices ecosystem (see "Spices must be self-contained" below)
 
 Authors are able to accept or refuse changes from other people which modify the features or the look of their spice.
 
 Authors are responsible for ensuring their spice is maintained to reflect changes to the underlying Cinnamon software, to ensure continued error free operation, and full coverage of themed functions within Cinnamon. If you don't maintain your spice then you agree that someone else may do so.
+
+# Spices must be self-contained
+
+These repositories exist so that third-party developers can publish their spices and users can install them safely. When a spice is hosted here, it is reviewed when it is added and again on every update, and we are able to watch for security and safety problems in it. This oversight is the whole reason the Spices repositories and the [Cinnamon Spices website](https://cinnamon-spices.linuxmint.com) exist — it's what lets users install spices with confidence.
+
+For this to work, the version of a spice published here must be the complete, fully functional spice. Anything a user installs from outside these repositories is outside our review and outside our control: we can't check it for malicious or unsafe code, we can't vouch for it, and it puts users at risk. Accordingly, authors **may not**:
+
+- Direct or encourage users to download or install an "enhanced"/"full"/"pro" version of the spice, or additional variants, add-ons or assets for it, from anywhere outside the Spices ecosystem.
+- Withhold or disable parts of the published spice in order to push users toward an externally-hosted version.
+- Use the spice, its README or its screenshots to advertise or link to such downloads.
+
+This applies regardless of whether the external version is paid, free, or offered for any other reason. The point is not money — it's that everything a user installs should be what we have reviewed and published here. Submissions that don't meet this requirement will not be accepted.
+
+## Supporting the author
+
+None of this prevents authors from being supported for their work. You are welcome to include a donation or support link. That link must not interrupt the user, and no part of the theme may be held back behind it.
 
 # Pull requests from authors and workflow
 
